@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pasteleria Douce Tentation</title>
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+
+    <h1 class="Titulo">Douce Tentation <span>Pasteleria</span></h1>
+        <div class="Nav-bg">
+            <nav class="Navegacion-principal Contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Galeria</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="#">Contacto </a>
+             </nav>
+        </div>
+    
+        <div class="Pastel">
+            <div class="Contenido-pastel">
+                <h2>La mejor Pasteleria de morelia </h2>
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F7567C" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="18" y2="6.01" />
+                    <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                    <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                    <line x1="9" y1="4" x2="9" y2="17" />
+                    <line x1="15" y1="15" x2="15" y2="20" />
+                  </svg>Morelia, Michoacan</p>
+                
+                <a  class="Boton" href="#contacto">Visitanos</a>
+            </div>
+        </div>
+    
+    
+    <main class="Contenedor Sombra">
+
+    <h2 class="Titulo">imagenes </h2>
+    <div class="Grid">
+            
+                <div class="producto">
+                    <a href="#">
+                        <img class="producto__imagen" src="img/3.jpg" alt="pastel de menta">
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">Aqua sweet</p>
+                            <p class="producto__precio">$25</p>
+                        </div>
+                    </a>
+                </div>  
+
+                <div class="producto">
+                    <a href="#">
+                        <img class="producto__imagen" src="img/4.jpg" alt="pastel de chocolate">
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">Ferrero sweet</p>
+                            <p class="producto__precio">$35</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <a href="#">
+                        <img class="producto__imagen" src="img/5.jpg" alt="pastel de oreo ">
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">Top Oreo</p>
+                            <p class="producto__precio">$35</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <a href="#">
+                        <img class="producto__imagen" src="img/6.jpg" alt="pastel de oreo ">
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">Caramely</p>
+                            <p class="producto__precio">$30</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <a href="#">
+                        <img class="producto__imagen" src="img/7.jpg" alt="pastel de oreo ">
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">fruit sweet</p>
+                            <p class="producto__precio">$35</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <a href="#">
+                        <img class="producto__imagen" src="img/8.jpg" alt="pastel de oreo ">
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">crazy chocolat</p>
+                            <p class="producto__precio">$35</p>
+                        </div>
+                    </a>
+                </div>
+             <!-- Fin del conteiner flex-->
+    </div>     
+    
+    </main>
+
+    <div class="Contacto">
+     
+        <form class="formulario" action="#" method="POST">
+            <legend>Contactános llenando todos los campos</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                </div>
+                <div class="campo w-100">
+                    <label>Correo</label>
+
+                    <input type="mail" name="correo" placeholder="Mail">
+                </div>
+
+                <div class="campo w-100">
+                    <label>Seleccion de Sabores</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Maraculla</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Fresa</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Caramelo</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Chocolate</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Frutas</label>
+                    
+                </div>
+                <div class="campo w-100">
+                    <label>Seleccion de adornos </label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Oreo</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Bombones</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Frutas</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Cerezas cubiertas</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">chispas de chocolate</label>
+                    
+                </div>
+                <div class="campo w-100">
+                    <label>Adornos</label>
+                    <input type="" name="correo" >
+                </div>
+                <div class="campo w-100">
+                    <label>Mensaje:</label>
+
+                    <textarea></textarea>
+                </div>
+            </div><!--.contenedor-campos-->
+            <div class="enviar">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+
+<footer class="Footer-bg">    
+    <p>©️ 2022 Douce Tentation, S.A. de C.V.</p>
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+    
+    Training
+    Blog
+    About</footer>
+</body>
+ </html>   
